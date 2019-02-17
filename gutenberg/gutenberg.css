@@ -1,0 +1,150 @@
+body {
+    margin: 8%;
+    text-align: justify;
+    background-image: url("img/oldpaper_bg.jpg");
+    background-size: 100% auto;
+}
+
+pre {
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;  
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h3.table-content {
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-family: sans-serif;
+    text-indent: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+p.chapter-start::first-letter {
+    font-size: 200%;
+}
+
+
+/* book 1 */
+div.book { margin-left: 5%; margin-right: 5%; text-align: justify; }
+div.toc { margin-left: 3%; text-align: left; }
+table.bold { 
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    font-weight: bold;
+}
+
+/* book2 */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+p.book-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td { 
+    vertical-align: top; 
+}
+
+.blkquot {
+    margin-left: 4em; 
+    margin-right: 4em;
+}
+
+.smcap {
+    font-variant: small-caps;
+}
+
+.pagenum {
+    position: absolute;
+    left: 92%;
+    font-size: smaller;
+    text-align: right;
+    color: gray;
+}
+
+.citation {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+/* book3 */
+p.poem {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+p.letter {
+    font-size: 120%;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em; 
+}
+
+p.noindent {
+    text-indent: 0% 
+}
+
+p.noindent::first-letter{
+    font-size: 200%
+}
+
+p.center  {text-align: center;
+           text-indent: 0em;
+           margin-top: 1em;
+           margin-bottom: 1em; }
+
+hr.small {
+    width: 80%;
+    margin: 2em auto 2em auto;
+    border-color: #000000;
+    border-style: solid;
+    clear: both;
+}
+
+hr.small1 {
+    width: 40%;
+    margin: 1em auto 1em auto;
+    border-color: #000000;
+    border-style: solid;
+    clear: both;
+}
+
+div.fig { 
+    display:block;
+    margin:0 auto;
+    text-align:center; }
+
+
+
