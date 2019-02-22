@@ -1,6 +1,7 @@
 body {
     margin: 8%;
     text-align: justify;
+    /* image resource: https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css */
     background-image: url("img/oldpaper_bg.jpg");
     background-size: 100% auto;
 }
