@@ -144,7 +144,23 @@ hr.small1 {
 div.fig { 
     display:block;
     margin:0 auto;
-    text-align:center; }
+    text-align:center; 
+}
+
+img.cover {
+    padding-bottom: 0em;
+    padding-top: 0em;
+    transform: scale(0.3);
+    align-items: center
+}
+
+img.illustration{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    width: 30%;
+    height: auto;
+}
 
 
 
